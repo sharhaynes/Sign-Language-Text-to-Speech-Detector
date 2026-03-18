@@ -1,2 +1,138 @@
-# Sign-Language-Text-to-Speech-Detector
-A real-time sign language recognition system built with Python, TensorFlow/Keras, and OpenCV, developed as part of a research project.
+# 🤟 CaribSign
+
+> **A real-time American Sign Language (ASL) recognition system developed as a Major Research Project (COMP 3495) at the University of the West Indies, Cave Hill Campus.**
+
+CaribSign is an AI-powered application that uses machine learning and computer vision to detect, recognise and classify Barbadian Sign Language hand gestures in real-time via a webcam. The system aims to bridge communication barriers faced by the deaf community in Barbados and the wider Caribbean, where accessible and culturally relevant assistive technologies remain limited.
+
+---
+
+## 📋 Table of Contents
+
+- [About the Project](#-about-the-project)
+- [Features](#-features)
+- [Technologies Used](#-technologies-used)
+- [Getting Started](#-getting-started)
+- [Dataset](#-dataset)
+- [Model Architecture](#-model-architecture)
+- [Results](#-results)
+- [Contributors](#-contributors)
+- [License](#-license)
+- [Contact](#-contact)
+
+---
+
+## About the Project
+
+This project was developed in response to the persistent communication barriers faced by deaf individuals in Barbados, where approximately **5,654 persons** live with some degree of hearing loss. Existing assistive technologies often lack cultural and linguistic relevance to the Caribbean context.
+
+CaribSign addresses this by building a locally informed ASL recognition system that operates on widely available hardware.
+---
+
+## Features
+
+- Real-time hand gesture detection via webcam
+- Supports both one-handed and two-handed signs
+- Deep learning-based sign classification using a Keras model
+- Tkinter GUI for easy interaction
+- 21-point hand landmark tracking using MediaPipe's Hand Detector module
+
+---
+
+## Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Core programming language |
+| OpenCV | Real-time video capture and processing |
+| TensorFlow / Keras (.h5) | Model integration and inference |
+| Google Teachable Machine | Model training interface |
+| MediaPipe | Hand landmark detection |
+| Tkinter | GUI framework |
+
+---
+
+### Prerequisites
+
+- Python 3.x
+- pip
+- A working webcam
+
+### Installation
+
+**1. Clone the repository**
+
+```bash
+git clone https://github.com/sharhaynes/Sign-Language-Text-to-Speech-Detector.git
+cd Sign-Language-Text-to-Speech-Detector
+```
+
+**2. Install dependencies**
+
+> ```bash
+> pip install tensorflow keras opencv-python mediapipe numpy
+> ```
+
+**3. Run the application**
+
+---
+
+## 📂 Dataset
+
+- Collected using a laptop webcam following a structured data capture pipeline
+- One-handed signs captured by pressing the **'s'** key
+- Two-handed signs captured via an automatic timer
+- Signs organised into labelled folders automatically upon closing the program
+
+**Training Configuration:**
+
+| Parameter | Value |
+|---|---|
+| Train / Test Split | 85% / 15% |
+| Epochs | 60 |
+| Batch Size | 16 |
+| Learning Rate | 0.0001 |
+
+---
+
+## 🧠 Model Architecture
+
+- Trained via **Google Teachable Machine** as a deep learning image classifier
+- Exported as a **Keras (.h5)** model
+- Integrated into the Python/Tkinter pipeline for real-time inference
+- Hand landmarks extracted using **21 keypoints** per hand (joints and palm)
+
+---
+
+## 📊 Results
+
+> *(To be updated upon project completion)*
+
+| Metric | Value |
+|---|---|
+| Accuracy | TBD |
+| Latency | TBD |
+
+---
+
+## 👥 Contributors
+
+| Name | Role |
+|---|---|
+| T'Shara Haynes | Developer & Researcher |
+| Dr. Adrian Als | Supervisor |
+
+**Institution:** University of the West Indies, Cave Hill Campus  
+**Department:** Computer Science, Mathematics and Physics  
+**Course:** COMP 3495 — Major Research Project in Computer Science  
+
+---
+
+## 📜 License
+
+This project is intended for academic purposes. Please contact the author before reuse.
+
+---
+
+## 📞 Contact
+
+For questions or inquiries, reach out at: `yhaynestshara0@gmail.com`

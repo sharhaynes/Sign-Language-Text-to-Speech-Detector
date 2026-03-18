@@ -6,7 +6,7 @@ CaribSign is an AI-powered application that uses machine learning and computer v
 
 ---
 
-## 🖥️ Demo
+## Demo
 
 ![CaribSign Demo](assets/demo.gif)
 
@@ -33,7 +33,7 @@ This project was developed in response to the persistent communication barriers 
 
 CaribSign addresses this by building a locally informed sign language recognition system that operates on widely available hardware.
 ---
-## 🙏 Acknowledgements
+## Acknowledgements
 
 Portions of the data collection pipeline were adapted from the following tutorial and modified to suit the requirements of this project:
 
@@ -137,7 +137,7 @@ cd Sign-Language-Text-to-Speech-Detector
 | Name | Role |
 |---|---|
 | T'Shara Haynes | Developer & Researcher |
-| Dr. Adrian Als | Supervisor |
+| Dr. Adrian Als | Supervisor & Researcher |
 
 **Institution:** University of the West Indies, Cave Hill Campus  
 **Department:** Computer Science, Mathematics and Physics  
@@ -152,4 +152,4 @@ This project is intended for academic purposes. Please contact the author before
 
 ##  Contact
 
-For questions or inquiries, reach out at: `yhaynestshara0@gmail.com`
+For questions or inquiries, reach out at: `haynestshara0@gmail.com`

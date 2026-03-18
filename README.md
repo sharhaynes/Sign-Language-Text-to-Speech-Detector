@@ -53,7 +53,7 @@ CaribSign addresses this by building a locally informed ASL recognition system t
 
 ### Prerequisites
 
-- Python 3.x
+- Python 3.8 (you can use your own python version, but ensure the dependencies are compatible)
 - pip
 - A working webcam
 
@@ -72,11 +72,19 @@ cd Sign-Language-Text-to-Speech-Detector
 > pip install tensorflow keras opencv-python mediapipe numpy
 > ```
 
-**3. Run the application**
+**3. Collecting Your Own Signs**
+>```bash
+>python dataCollection2.py
+> ```
+
+**4. Run the GUI application**
+> ```bash
+> python sl_gui.py
+> ```
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 - Collected using a laptop webcam following a structured data capture pipeline
 - One-handed signs captured by pressing the **'s'** key
@@ -94,7 +102,7 @@ cd Sign-Language-Text-to-Speech-Detector
 
 ---
 
-## 🧠 Model Architecture
+##  Model Architecture
 
 - Trained via **Google Teachable Machine** as a deep learning image classifier
 - Exported as a **Keras (.h5)** model
@@ -103,7 +111,7 @@ cd Sign-Language-Text-to-Speech-Detector
 
 ---
 
-## 📊 Results
+##  Results
 
 > *(To be updated upon project completion)*
 
@@ -114,7 +122,7 @@ cd Sign-Language-Text-to-Speech-Detector
 
 ---
 
-## 👥 Contributors
+##  Contributors
 
 | Name | Role |
 |---|---|
@@ -127,12 +135,12 @@ cd Sign-Language-Text-to-Speech-Detector
 
 ---
 
-## 📜 License
+##  License
 
 This project is intended for academic purposes. Please contact the author before reuse.
 
 ---
 
-## 📞 Contact
+##  Contact
 
 For questions or inquiries, reach out at: `yhaynestshara0@gmail.com`

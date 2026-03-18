@@ -13,6 +13,7 @@ CaribSign is an AI-powered application that uses machine learning and computer v
 ## 📋 Table of Contents
 
 - [About the Project](#-about-the-project)
+- [Acknowledgements](#-acknowledgement)
 - [Features](#-features)
 - [Technologies Used](#-technologies-used)
 - [Getting Started](#-getting-started)
@@ -22,7 +23,7 @@ CaribSign is an AI-powered application that uses machine learning and computer v
 - [Contributors](#-contributors)
 - [License](#-license)
 - [Contact](#-contact)
-- [Acknowledgements](#-acknowledgement)
+
 
 ---
 
@@ -32,8 +33,11 @@ This project was developed in response to the persistent communication barriers 
 
 CaribSign addresses this by building a locally informed sign language recognition system that operates on widely available hardware.
 ---
-This project references the work done by
+## 🙏 Acknowledgements
 
+Portions of the data collection pipeline were adapted from the following tutorial and modified to suit the requirements of this project:
+
+- [Hand Tracking Tutorial by Murtaza's Workshop](https://youtu.be/wa2ARoUUdU8) — used as a basis for the Hand Detector module and webcam capture logic
 ## Features
 
 - Real-time hand gesture detection via webcam
@@ -138,13 +142,6 @@ cd Sign-Language-Text-to-Speech-Detector
 **Institution:** University of the West Indies, Cave Hill Campus  
 **Department:** Computer Science, Mathematics and Physics  
 **Course:** COMP 3495 — Major Research Project in Computer Science  
-
----
-## 🙏 Acknowledgements
-
-Portions of the data collection pipeline were adapted from the following tutorial and modified to suit the requirements of this project:
-
-- [Hand Tracking Tutorial by Murtaza's Workshop](https://youtu.be/wa2ARoUUdU8) — used as a basis for the Hand Detector module and webcam capture logic
 
 ---
 ##  License

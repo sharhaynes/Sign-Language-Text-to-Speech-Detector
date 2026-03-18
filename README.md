@@ -1,6 +1,6 @@
 # 🤟 CaribSign
 
-> **A real-time American Sign Language (ASL) recognition system developed as a Major Research Project (COMP 3495) at the University of the West Indies, Cave Hill Campus.**
+> **A real-time Barbadian Sign Language recognition system developed as a Major Research Project (COMP 3495) at the University of the West Indies, Cave Hill Campus.**
 
 CaribSign is an AI-powered application that uses machine learning and computer vision to detect, recognise and classify Barbadian Sign Language hand gestures in real-time via a webcam. The system aims to bridge communication barriers faced by the deaf community in Barbados and the wider Caribbean, where accessible and culturally relevant assistive technologies remain limited.
 
@@ -18,6 +18,7 @@ CaribSign is an AI-powered application that uses machine learning and computer v
 - [Contributors](#-contributors)
 - [License](#-license)
 - [Contact](#-contact)
+- [Acknowledgements](#-acknowledgement)
 
 ---
 
@@ -25,8 +26,9 @@ CaribSign is an AI-powered application that uses machine learning and computer v
 
 This project was developed in response to the persistent communication barriers faced by deaf individuals in Barbados, where approximately **5,654 persons** live with some degree of hearing loss. Existing assistive technologies often lack cultural and linguistic relevance to the Caribbean context.
 
-CaribSign addresses this by building a locally informed ASL recognition system that operates on widely available hardware.
+CaribSign addresses this by building a locally informed sign language recognition system that operates on widely available hardware.
 ---
+This project references the work done by
 
 ## Features
 
@@ -134,7 +136,13 @@ cd Sign-Language-Text-to-Speech-Detector
 **Course:** COMP 3495 — Major Research Project in Computer Science  
 
 ---
+## 🙏 Acknowledgements
 
+Portions of the data collection pipeline were adapted from the following tutorial and modified to suit the requirements of this project:
+
+- [Hand Tracking Tutorial by Murtaza's Workshop](https://youtu.be/wa2ARoUUdU8) — used as a basis for the Hand Detector module and webcam capture logic
+
+---
 ##  License
 
 This project is intended for academic purposes. Please contact the author before reuse.

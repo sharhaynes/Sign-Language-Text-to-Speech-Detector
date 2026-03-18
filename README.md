@@ -9,22 +9,6 @@ CaribSign is an AI-powered application that uses machine learning and computer v
 ## Demo
 
 ![CaribSign Demo](assets/demo.gif)
-
-## 📋 Table of Contents
-
-- [About the Project](#-about-the-project)
-- [Acknowledgements](#-acknowledgement)
-- [Features](#-features)
-- [Technologies Used](#-technologies-used)
-- [Getting Started](#-getting-started)
-- [Dataset](#-dataset)
-- [Model Architecture](#-model-architecture)
-- [Results](#-results)
-- [Contributors](#-contributors)
-- [License](#-license)
-- [Contact](#-contact)
-
-
 ---
 
 ## About the Project
